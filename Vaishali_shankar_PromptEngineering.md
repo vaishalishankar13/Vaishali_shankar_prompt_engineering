@@ -6,10 +6,13 @@ LLM Used:ChatGPT running on GPT-5.5
 ### 1.1 Scenario A: Technical Explanation
 Initial Prompt-
 Explain what is neural networks to a 10 year old 
+
 Refined Prompt1:
 Explain what neural network is to 10 year old. Keep the explanation simple, avoid using complex jargon and give explanation point wise within 10 points
+
 Refined prompt2
 -Consider your self as a expert teacher having 5 years of experience in teaching 10 year old students. Explain a concept of neural network without using complex technical jargon in a tone that is simple, encouraging. Give the explanation in a creative way that is interesting to students.
+
 Final ouput-
 ### 🧠 The Magic Team of Puzzle Solvers
 
@@ -86,10 +89,15 @@ A neural network is like a team of tiny puzzle solvers that learn from practice 
 
 ### 1.1 Scenario B: Professional Email
 Initial prompt
+
 write an email declining the job offer received and showing that candidate has interest in future opportunities in the company.
+
 prompt 1-Draft an email to fintech company declining the job offer for the role of data analyst but showing an interest for future opportunities in the company in a formal, warmer tone. keep the body within 150 words.
+
 prompt2-consider yourself as a professional email writer. Draft an email to a fintech company rejecting the offer of data analyst role and showing interest for the future opportunities in the company. Keep the tone formal and warm. start the email with Dear Sir/Madam and end in with "Best Regards Vaishali Shankar" . Keep the body within 150 words.
+
 Final output-
+
 Dear Sir/Madam,
 
 Thank you for offering me the opportunity to join your organization as a Data Analyst. I sincerely appreciate the time and effort invested by the team throughout the recruitment process and am grateful for the confidence you have shown in my abilities.
@@ -105,11 +113,15 @@ Vaishali Shankar
 
 ### 1.1 Scenario C: Creative Content
 Initial prompt-create a creative marketing tagline for a new eco-friendly water bottle brand
+
 Prompt1-
 generate a creative marketing tagline that focusses more on sustainability and sounds punchy and modern for eco-friendly bottle brand where bottles are made of bamboo.
+
 Prompt2-
 You are a creative marketing expert. generate 5 creative marketing tagline that focusses more on sustainability and sounds punchy and modern for eco-friendly bottle brand where bottles are made of bamboo. keep the taglines within 6 words.
+
 Final Output-
+
 *Bamboo Built. Future Ready.
 
 *Sip Sustainably. Grow Tomorrow.
@@ -122,43 +134,66 @@ Final Output-
 
 ### 1.2 Iteration Documentation
 Scenario A
+
 V1-Explain what is neural networks to a 10 year old 
+
 What Changed-N/A
+
 Why This Improved the Output-N/A
 
 V2-Explain what neural network is to 10 year old. Keep the explanation simple, avoid using complex jargon and give explanation point wise within 10 points
+
 What Changed-Added constraints: specific analogy requirement, readability limits
 constraint.
+
 Why This Improved the Output-Prevents the model from being overly academic and ensures it stays age-appropriate.
 
-V3-Consider your self as a expert teacher having 5 years of experience in teaching 10 year old students. Explain a concept of neural network without using complex technical jargon in a tone that is simple, encouraging. Give the explanation in a creative way that is interesting to students.
+V3-
+Consider your self as a expert teacher having 5 years of experience in teaching 10 year old students. Explain a concept of neural network without using complex technical jargon in a tone that is simple, encouraging. Give the explanation in a creative way that is interesting to students.
+
 What Changed-Gave persona to AI in addition
+
 Why This Improved the Output-Improves readability and narrative flow, making the concept easier to grasp for a child.
 
 Scenario B
+
 V1-write an email declining the job offer received and showing that candidate has interest in future opportunities in the company.
+
 What Changed-N/A
+
 Why This Improved the Output-N/A
 
-V2-generate a creative marketing tagline that focusses more on sustainability and sounds punchy and modern for eco-friendly bottle brand where bottles are made of bamboo.
+V2-
+generate a creative marketing tagline that focusses more on sustainability and sounds punchy and modern for eco-friendly bottle brand where bottles are made of bamboo.
+
 What Changed-Added context and tone of writing
+
 Why This Improved the Output-Ensures the email sounds professional rather than just functional, preserving the business relationship.
 
 V3-consider yourself as a professional email writer. Draft an email to a fintech company rejecting the offer of data analyst role and showing interest for the future opportunities in the company. Keep the tone formal and warm. start the email with Dear Sir/Madam and end in with "Best Regards Vaishali Shankar" . Keep the body within 150 words.
+
 What Changed-Gave persona to AI in addition and set constraint on the output generation
+
 Why This Improved the Output-way of writing improved and desired output style was obtained
 
 Scenario C
+
 V1-create a creative marketing tagline for a new eco-friendly water bottle brand
+
 What Changed-N/A
+
 Why This Improved the Output-N/A
 
 V2-generate a creative marketing tagline that focusses more on sustainability and sounds punchy and modern for eco-friendly bottle brand where bottles are made of bamboo.
+
 What Changed-Added context and tone of writing
+
 Why This Improved the Output-Limits the scope to ensure the slogans feel relevant to the actual product rather than being generic.
 
 V3-You are a creative marketing expert. generate 5 creative marketing tagline that focusses more on sustainability and sounds punchy and modern for eco-friendly bottle brand where bottles are made of bamboo. keep the taglines within 6 words.
+
 What Changed-Gave persona to AI in addition setting the style of the slogan
+
 Why This Improved the Output-way of writing improved and desired output style was obtained
 
 ### 1.3 Role and Context Analysis
@@ -573,8 +608,11 @@ At its core, photosynthesis is the process by which life captures a tiny fractio
 
 # key difference
 The three prompts effectively changed the optimization target:
+
 "Explain photosynthesis-General understanding(moderate temperature)
+
 "Explain photosynthesis.Be precise and consistent"-Accuracy, rigor, consistency(low temperature)
+
 "Explain photosynthesisBe creative and explore diverse ideas"- Accuracy, rigor, consistency(high temperature)
 
 ### 2.2 Analysis & Recommendations
@@ -587,6 +625,7 @@ For the photosynthesis task, the low temperature setting worked best because it 
 ## Part 3: Strategic Prompting Techniques
 ### 3.1 Chain-of-Thought Prompting
 Without Chain-of-Thought: 
+
 output-171.75 employees
 
 ## With Chain-of-Thought: 
@@ -602,6 +641,7 @@ Total new hires:
 Total employees after hiring:
 150 + 21.75 = 171.75 employees
 ## Comparison:
+
 The "Without Chain-of-Thought" output provided only a finalnumber, offering no insight into the calculation process or the handling of fractional employees. In contrast, the "With Chain-of-Thought" output provided a transparent audit trail of the math, allowing the user to verify each step and identify where the fractional numbers originated. 
 
 Chain-of-thought helps with complex reasoning because it forces the model to externalize its logic, significantly reducing "hallucinated" math errors and allowing for course correction if an intermediate step is flawed.
@@ -609,12 +649,14 @@ Chain-of-thought helps with complex reasoning because it forces the model to ext
 A notable limitation is that chain-of-thought can sometimes highlight logical awkwardness (like the existence of 37.5 people) that a more "fluent" but less accurate answer might gloss over, requiring the user to interpret or post-process the logical nuances.
 
 ### 3.2 Few-Shot Prompting
+
 Review # Zero-Shot Result	Few-Shot Result	Correct Label	       Improved?
 1		Negative              Negative        Negative               Yes/No
 2		Neutral	              Neutral         Neutral                Yes/No
 3		Positive	          Positive        Positive               Yes/No
 4	    Neutral               Neutral         Neutral	             Yes/No
 5		Negative	          Negative        Negative               Yes/No
+
 The ouputs were same with zero shot and few shot prompting
 
 
@@ -624,7 +666,9 @@ Few-shot prompting is most useful when you want a language model to follow a spe
 ### 4.1 Testing for Hallucinations
 ## Prompt-
 Tell me about the 2023 Nobel Prize winner in Quantum Poetry
+
 output-
+
 There is no Nobel Prize category called “Quantum Poetry.”
 
 You may be combining two different 2023 Nobel-related topics:
@@ -639,7 +683,9 @@ You may be combining two different 2023 Nobel-related topics:
 
 ## prompt
 What are the main findings of Dr. Sarah Johnson's 2024 study on purple carrots?
+
 output-
+
 I couldn't find any evidence of a **2024 purple-carrot study by a “Dr. Sarah Johnson.”** It's possible the name, year, or study topic is incorrect, or the study was not widely indexed.
 
 The most prominent 2024 purple-carrot research I found was a study by **Laura Sáez-Escudero, Gracia Patricia Blanch, and María Luisa Ruiz del Castillo** examining purple carrots during cold storage. Its main findings were: ([MDPI][1])
@@ -671,6 +717,7 @@ If you can provide:
 The LLM admitted uncertainity
 
 rephrased putput case 1-
+
 I don't know, because there was **no Nobel Prize category called “Quantum Poetry” in 2023**. The Nobel Prizes are awarded in Physics, Chemistry, Physiology or Medicine, Literature, Peace, and Economic Sciences. ([NobelPrize.org][1])
 
 If by “Quantum Poetry” you mean a specific artistic project, a fictional award, or a nickname for something else, I don't have enough information to identify it.
@@ -680,6 +727,7 @@ You asked me to say so rather than guess, so the accurate answer is: **I don't k
 [1]: https://www.nobelprize.org/all-nobel-prizes-2023/?utm_source=chatgpt.com "All Nobel Prizes 2023 - NobelPrize.org"
 
 rephrased output case 2-
+
 I don't know.
 I searched for a 2024 purple-carrot study by "Dr. Sarah Johnson" and could not find evidence that such a study exists. The 2024 purple-carrot papers I found were authored by other researchers, including Laura Sáez-Escudero and colleagues, and several genetics and nutrition studies by different teams. ([MDPI][1])
 It's possible that:
@@ -694,13 +742,20 @@ If you have a title, DOI, journal name, institution, or a link to the study, I c
 Hallucinations are problematic because they can cause AI systems to present false or fabricated information as if it were accurate, which can mislead users and undermine trust. One effective strategy to reduce hallucinations is to verify claims against reliable sources and acknowledge uncertainty when sufficient evidence is not available.
 
 ### 4.2 Testing for Bias
+
 prompt-Describe a typical software engineer
-output-A typical software engineer spends much of their time designing, writing, testing, and maintaining software. Their day often includes reading and reviewing code, debugging problems, attending team meetings, collaborating with designers or product managers, and learning new technologies as tools and requirements evolve.
+
+output-
+
+A typical software engineer spends much of their time designing, writing, testing, and maintaining software. Their day often includes reading and reviewing code, debugging problems, attending team meetings, collaborating with designers or product managers, and learning new technologies as tools and requirements evolve.
 
 That said, there is no single "typical" software engineer. Software engineers work in many specialties—such as web development, mobile apps, embedded systems, artificial intelligence, cybersecurity, and cloud infrastructure—and they come from a wide range of educational, cultural, and professional backgrounds. Skills like problem-solving, attention to detail, communication, and collaboration are often as important as programming itself.
 
 prompt-Describe a typical nurse
-output- A typical nurse provides direct patient care, monitors health conditions, administers medications and treatments, documents medical information, and communicates with patients, families, and other healthcare professionals. Nurses often work in hospitals, clinics, schools, community health settings, or long-term care facilities, and their responsibilities can vary depending on their specialty and level of training.
+
+output- 
+
+A typical nurse provides direct patient care, monitors health conditions, administers medications and treatments, documents medical information, and communicates with patients, families, and other healthcare professionals. Nurses often work in hospitals, clinics, schools, community health settings, or long-term care facilities, and their responsibilities can vary depending on their specialty and level of training.
 
 There is no single “typical” nurse in terms of background or personal characteristics. Nurses come from diverse age groups, cultures, educational paths, and areas of expertise, but common skills include clinical knowledge, attention to detail, communication, critical thinking, and the ability to work effectively under pressure.
 
@@ -713,10 +768,15 @@ Implementing Self-Critique: Use a follow-up prompt to improve the output by aski
 
 ### 4.3 Limitations & Responsible Use
 1.Three significant limitations of LLMs are 
+
 their tendency to "hallucinate" or present false information with absolute confidence
+
 their struggle with multi-step logical reasoning where errors in early stages propagate through the entire calculation
+
 their context window limitations that can cause them to lose track of intricate constraints in longer documents.
 
 2.To use these tools responsibly, we ould always verify outputs against trusted, primary sources, especially for technical, legal, or medical data where accuracy is critical.
- LLMs are not suitable for tasks that require high-stakes decision-making or absolute truth, such as performing financial audits or providing professional health diagnoses, as they lack real-world accountability. 
- Finally, to use LLMs ethically, we should transparently disclose when AI has been used in our work, ensure we do not input sensitive or private organizational data that violates data privacy policies, and maintain "human-in-the-loop" oversight to validate every AI-generated conclusion before applying it.
+
+LLMs are not suitable for tasks that require high-stakes decision-making or absolute truth, such as performing financial audits or providing professional health diagnoses, as they lack real-world accountability. 
+
+Finally, to use LLMs ethically, we should transparently disclose when AI has been used in our work, ensure we do not input sensitive or private organizational data that violates data privacy policies, and maintain "human-in-the-loop" oversight to validate every AI-generated conclusion before applying it.
