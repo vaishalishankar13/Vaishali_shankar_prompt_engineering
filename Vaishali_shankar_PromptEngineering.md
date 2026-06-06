@@ -110,11 +110,16 @@ generate a creative marketing tagline that focusses more on sustainability and s
 Prompt2-
 You are a creative marketing expert. generate 5 creative marketing tagline that focusses more on sustainability and sounds punchy and modern for eco-friendly bottle brand where bottles are made of bamboo. keep the taglines within 6 words.
 Final Output-
-Bamboo Built. Future Ready.
-Sip Sustainably. Grow Tomorrow.
-Nature's Bottle. Zero Compromise.
-Refill Green. Repeat Forever.
-Rooted in Bamboo. Driven by Change.
+*Bamboo Built. Future Ready.
+
+*Sip Sustainably. Grow Tomorrow.
+
+*Nature's Bottle. Zero Compromise.
+
+*Refill Green. Repeat Forever.
+
+*Rooted in Bamboo. Driven by Change.
+
 ### 1.2 Iteration Documentation
 Scenario A
 V1-Explain what is neural networks to a 10 year old 
@@ -132,7 +137,6 @@ Why This Improved the Output-Improves readability and narrative flow, making the
 
 Scenario B
 V1-write an email declining the job offer received and showing that candidate has interest in future opportunities in the company.
-
 What Changed-N/A
 Why This Improved the Output-N/A
 
